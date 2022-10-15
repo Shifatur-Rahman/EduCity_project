@@ -207,17 +207,20 @@ section.header_popup {
 
 .left_main_content ul li a {
   text-decoration: none;
-  color: #000000;
+  color: rgba(0, 0, 0, 0.8);
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
 }
 
-.left_main_content_wrapper ul:nth-last-child() {
-  font-size: 14px;
-  border: 1px solid #000;
+.hrLine {
+  width: 200px;
+}
+.li_p {
+  font-size: 14px !important;
+  border: 0.8px solid #000000;
+  border-radius: 4px;
   padding: 10px;
-  border-radius: 2px;
 }
 
 .right_main_content {
